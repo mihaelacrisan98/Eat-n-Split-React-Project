@@ -1,5 +1,5 @@
 :root {
-  --color-lightest: #fff4e6;
+  --color-lightest: #ffe9d1;
   --color-light: #ffe8cc;
   --color-medium: #ffa94d;
   --color-dark: #ff922b;
@@ -23,6 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #fff8ed;
 }
 
 .app {
@@ -31,6 +32,18 @@ body {
   grid-template-columns: 34rem 44rem;
   column-gap: 4rem;
   align-items: start;
+}
+
+.page-header {
+  background-color: var(--color-medium);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .button {

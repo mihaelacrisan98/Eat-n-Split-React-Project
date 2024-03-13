@@ -64,6 +64,7 @@ export default function App() {
   return (
     <div className="app">
       <div className="sidebar">
+        <h1 className="title">SPLIT THE BILL APP</h1>
         <FriendsList
           friends={friends}
           selectedFriend={selectedFriend}
